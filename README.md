@@ -1,6 +1,8 @@
 # Brief
 This is admitedly vibe coded. It loads a txt file with your IP or CIDR ranges, then creates a file in tmp while processing. When completed, a new file appears in the current directory with a formatted .nft elements list.
 
+it utilizes `pv` to give a progress bar during very large lists.
+
 # Usage
 First give it permissions.
 
